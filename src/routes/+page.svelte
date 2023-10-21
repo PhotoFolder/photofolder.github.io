@@ -7,4 +7,4 @@
 	<!-- <a href="{base}/about">About</a> -->
 </nav>
 
-svelte 2
+<a href="https://forms.gle/UPmNKp9FncKYnvcW7" target="_blank">Contact</a>
