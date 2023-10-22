@@ -6,10 +6,7 @@ const config = {
 	preprocess: vitePreprocess(),
 
 	kit: {
-		adapter: adapter({ pages: 'docs' }),
-		paths: {
-			base: process.env.NODE_ENV === 'production' ? '/photofolder' : ''
-		}
+		adapter: adapter({ pages: 'docs' })
 	}
 };
 
