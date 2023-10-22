@@ -13,8 +13,8 @@
 			Prevent lock-in by simply using files
 		</h1>
 		<p class="text-2xl text-[#444] mt-4 px-4">
-			PhotoFolder takes advantage of open formats to give the features of Google/Apple Photos
-			without the lock-in
+			PhotoFolder takes advantage of <span class="font-bold">open formats</span> to give the features
+			of Google/Apple Photos without the lock-in
 		</p>
 
 		<div class="pl-4 mt-5">
@@ -35,6 +35,10 @@
 	</div>
 </div>
 
+<br />
+<br />
+<br />
+
 <div class=" max-w-2xl mt-5 m-auto text-center">
 	<p class="text-3xl drop-shadow-lg text-[#333] mt-4 px-4 font-bold">
 		PhotoFolder stores all the information in a regular folder.
@@ -48,6 +52,14 @@
 		files!
 	</p>
 	<p class="text-3xl drop-shadow-lg text-[#333] mt-4 px-4 font-bold">
-		Ofcourse we are open source, give us a star on Github ⭐️
+		Ofcourse we are open source,
+		<a class="underline" href="https://github.com/PhotoFolder/app">give us a star on Github </a>⭐️
 	</p>
 </div>
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
