@@ -12,12 +12,12 @@
 		<h1 class="text-5xl drop-shadow-lg mt-16 px-4 font-bold text-[#333]">
 			Prevent lock-in by simply using files
 		</h1>
-		<p class="text-2xl text-[#444] mt-4 px-4">
+		<p class="text-2xl text-[#444] px-4 mt-5">
 			PhotoFolder takes advantage of <span class="font-bold">open formats</span> to give the features
-			of Google/Apple Photos without the lock-in
+			of Google/Apple Photos without the lock-in.
 		</p>
 
-		<div class="pl-4 mt-5">
+		<div class="pl-4 mt-12">
 			<a
 				href={CTA_URL}
 				target="_blank"
@@ -29,9 +29,9 @@
 		</div>
 	</div>
 
-	<div class="px-4 max-w-2xl -ml-14">
+	<div class="px-4 max-w-2xl">
 		<!-- <img src="/landing/hero-image.webp" class=" mt-10 m-auto" alt="example of a plate" /> -->
-		<img src="/hero-image.webp" alt="PhotoFolder logo" class=" -mt-20 m-auto h-[700px]" />
+		<img src="/hero-image.webp" alt="PhotoFolder logo" class=" -mt-32 -mr-16 m-auto w-[700px]" />
 	</div>
 </div>
 
@@ -40,19 +40,20 @@
 <br />
 
 <div class=" max-w-2xl mt-5 m-auto text-center">
-	<p class="text-3xl drop-shadow-lg text-[#333] mt-4 px-4 font-bold">
-		PhotoFolder stores all the information in a regular folder.
+	<p class="text-4xl drop-shadow-lg text-[#333] px-4">
+		PhotoFolder stores all the information in a <span class="font-bold">regular folder</span>.
 	</p>
-	<p class="text-3xl drop-shadow-lg text-[#333] mt-4 px-4 font-bold">
-		Metadata like location, faces and objects are stored in the file itself, not in a separate
-		database.
+	<p class="text-4xl mt-12 drop-shadow-lg text-[#333] px-4">
+		Metadata such as location, faces and objects are <span class="font-bold"
+			>stored in the file itself</span
+		>, <span class="italic underline">not</span> in a separate database.
 	</p>
-	<p class="text-3xl drop-shadow-lg text-[#333] mt-4 px-4 font-bold">
-		You can sync this data with any cloud provider. Or just put it in a USB drive, they are just
-		files!
+	<p class="text-4xl mt-12 drop-shadow-lg text-[#333] px-4">
+		You can sync this data with <span class="font-bold">any cloud provider</span> or store it on a USB
+		drive. They are simply files!
 	</p>
-	<p class="text-3xl drop-shadow-lg text-[#333] mt-4 px-4 font-bold">
-		Ofcourse we are open source,
+	<p class="text-4xl mt-12 drop-shadow-lg text-[#333] px-4">
+		Of course we are open source,
 		<a class="underline" href="https://github.com/PhotoFolder/app">give us a star on Github </a>⭐️
 	</p>
 </div>
