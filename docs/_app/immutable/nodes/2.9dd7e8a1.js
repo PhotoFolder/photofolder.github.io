@@ -1,22 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" href="./favicon.webp" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		
-		<link href="./_app/immutable/assets/0.12a02551.css" rel="stylesheet">
-		<link rel="modulepreload" href="./_app/immutable/entry/start.a6f429dd.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.e108d1fd.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.6d1bb619.js">
-		<link rel="modulepreload" href="./_app/immutable/entry/app.cb1503a1.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/index.a21d6cee.js">
-		<link rel="modulepreload" href="./_app/immutable/nodes/0.fbeeb28d.js">
-		<link rel="modulepreload" href="./_app/immutable/nodes/2.9dd7e8a1.js">
-	</head>
-	<body data-sveltekit-preload-data="hover">
-		<div style="display: contents">     <div class="flex max-w-6xl mt-5 m-auto justify-center"><div class="mt-10 max-w-xl"><h1 class="text-5xl drop-shadow-lg mt-16 px-4 font-bold text-[#333]" data-svelte-h="svelte-1yw68un">Prevent lock-in by simply using files</h1> <p class="text-2xl text-[#444] px-4 mt-5" data-svelte-h="svelte-16uk9f9">PhotoFolder takes advantage of <span class="font-bold">open formats</span> to give the features
-			of Google/Apple Photos without the lock-in.</p> <div class="pl-4 mt-12"><a href="https://forms.gle/UPmNKp9FncKYnvcW7" target="_blank" rel="noopener noreferrer" class="bg-[#313131] fill-[#f3f3ec] text-[#f3f3ec] inline-flex p-2 px-3 rounded-xl text-2xl items-center shadow-xl bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-[#1489EC] to-[#0569d3]">Get Started</a></div></div> <div class="px-4 max-w-2xl" data-svelte-h="svelte-ivlx7w"> <img src="/hero-image.webp" alt="PhotoFolder logo" class="-mt-32 -mr-16 m-auto w-[700px]"></div></div> <br> <br> <br> <div class="max-w-2xl mt-5 m-auto text-center leading-10" data-svelte-h="svelte-14b66a7"><p class="text-4xl drop-shadow-lg text-[#333] px-4">All the data stored<br> in a
+import{s as Z,n as q}from"../chunks/scheduler.e108d1fd.js";import{S as $,i as t2,g as c,s as i,m as e2,h as a,j as I,y as j,c as n,n as l2,f as l,k as o,a as s,x as d}from"../chunks/index.a21d6cee.js";function s2(X){let r,p,v,N="Prevent lock-in by simply using files",F,m,O=`PhotoFolder takes advantage of <span class="font-bold">open formats</span> to give the features
+			of Google/Apple Photos without the lock-in.`,G,u,x,U,K,h,W='<img src="/hero-image.webp" alt="PhotoFolder logo" class="-mt-32 -mr-16 m-auto w-[700px]"/>',b,g,C,_,H,M,z,f,Y=`<p class="text-4xl drop-shadow-lg text-[#333] px-4">All the data stored<br/> in a
 		<span class="font-bold text-[#005cc4] fill-[#458cdd] border-[#458cddca] px-3 pb-1 rounded-full inline-flex items-center border-2">regular folder
 			<svg class="inline ml-2" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><path d="M64 480H448c35.3 0 64-28.7 64-64V160c0-35.3-28.7-64-64-64H288c-10.1 0-19.6-4.7-25.6-12.8L243.2 57.6C231.1 41.5 212.1 32 192 32H64C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64z"></path></svg></span></p> <p class="text-4xl mt-12 drop-shadow-lg text-[#333] px-4"><span class="font-bold text-[#ff5900] fill-[#ff5900AA] rounded-full inline-flex items-center">Location
 			<svg class="inline ml-2" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><path d="M57.7 193l9.4 16.4c8.3 14.5 21.9 25.2 38 29.8L163 255.7c17.2 4.9 29 20.6 29 38.5v39.9c0 11 6.2 21 16 25.9s16 14.9 16 25.9v39c0 15.6 14.9 26.9 29.9 22.6c16.1-4.6 28.6-17.5 32.7-33.8l2.8-11.2c4.2-16.9 15.2-31.4 30.3-40l8.1-4.6c15-8.5 24.2-24.5 24.2-41.7v-8.3c0-12.7-5.1-24.9-14.1-33.9l-3.9-3.9c-9-9-21.2-14.1-33.9-14.1H257c-11.1 0-22.1-2.9-31.8-8.4l-34.5-19.7c-4.3-2.5-7.6-6.5-9.2-11.2c-3.2-9.6 1.1-20 10.2-24.5l5.9-3c6.6-3.3 14.3-3.9 21.3-1.5l23.2 7.7c8.2 2.7 17.2-.4 21.9-7.5c4.7-7 4.2-16.3-1.2-22.8l-13.6-16.3c-10-12-9.9-29.5 .3-41.3l15.7-18.3c8.8-10.3 10.2-25 3.5-36.7l-2.4-4.2c-3.5-.2-6.9-.3-10.4-.3C163.1 48 84.4 108.9 57.7 193zM464 256c0-36.8-9.6-71.4-26.4-101.5L412 164.8c-15.7 6.3-23.8 23.8-18.5 39.8l16.9 50.7c3.5 10.4 12 18.3 22.6 20.9l29.1 7.3c1.2-9 1.8-18.2 1.8-27.5zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256z"></path></svg> </span>,
@@ -39,32 +22,4 @@
 		<span class="font-bold text-[#068000] fill-[#068000AA] rounded-full inline-flex items-center">USB drive
 			<svg class="inline ml-2" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512"><path d="M641.5 256c0 3.1-1.7 6.1-4.5 7.5L547.9 317c-1.4.8-2.8 1.4-4.5 1.4-1.4 0-3.1-.3-4.5-1.1-2.8-1.7-4.5-4.5-4.5-7.8v-35.6H295.7c25.3 39.6 40.5 106.9 69.6 106.9H392V354c0-5 3.9-8.9 8.9-8.9H490c5 0 8.9 3.9 8.9 8.9v89.1c0 5-3.9 8.9-8.9 8.9h-89.1c-5 0-8.9-3.9-8.9-8.9v-26.7h-26.7c-75.4 0-81.1-142.5-124.7-142.5H140.3c-8.1 30.6-35.9 53.5-69 53.5C32 327.3 0 295.3 0 256s32-71.3 71.3-71.3c33.1 0 61 22.8 69 53.5 39.1 0 43.9 9.5 74.6-60.4C255 88.7 273 95.7 323.8 95.7c7.5-20.9 27-35.6 50.4-35.6 29.5 0 53.5 23.9 53.5 53.5s-23.9 53.5-53.5 53.5c-23.4 0-42.9-14.8-50.4-35.6H294c-29.1 0-44.3 67.4-69.6 106.9h310.1v-35.6c0-3.3 1.7-6.1 4.5-7.8 2.8-1.7 6.4-1.4 8.9.3l89.1 53.5c2.8 1.1 4.5 4.1 4.5 7.2z"></path></svg> </span>. They are just files!</p> <p class="text-4xl mt-12 drop-shadow-lg text-[#333] px-4">Of course we are <span class="font-bold">open source</span>,
 		<a class="underline" href="https://github.com/PhotoFolder/app" target="_blank">you can star us on Github
-		</a>⭐️</p></div> <br> <br> <br> <br> <br> <br> 
-			
-			<script>
-				{
-					__sveltekit_1xlmdmi = {
-						base: new URL(".", location).pathname.slice(0, -1),
-						env: {}
-					};
-
-					const element = document.currentScript.parentElement;
-
-					const data = [null,null];
-
-					Promise.all([
-						import("./_app/immutable/entry/start.a6f429dd.js"),
-						import("./_app/immutable/entry/app.cb1503a1.js")
-					]).then(([kit, app]) => {
-						kit.start(app, element, {
-							node_ids: [0, 2],
-							data,
-							form: null,
-							error: null
-						});
-					});
-				}
-			</script>
-		</div>
-	</body>
-</html>
+		</a>⭐️</p>`,B,V,A,y,L,k,R,T,P,S,D,E;return{c(){r=c("div"),p=c("div"),v=c("h1"),v.textContent=N,F=i(),m=c("p"),m.innerHTML=O,G=i(),u=c("div"),x=c("a"),U=e2("Get Started"),K=i(),h=c("div"),h.innerHTML=W,b=i(),g=c("br"),C=i(),_=c("br"),H=i(),M=c("br"),z=i(),f=c("div"),f.innerHTML=Y,B=i(),V=c("br"),A=i(),y=c("br"),L=i(),k=c("br"),R=i(),T=c("br"),P=i(),S=c("br"),D=i(),E=c("br"),this.h()},l(t){r=a(t,"DIV",{class:!0});var e=I(r);p=a(e,"DIV",{class:!0});var w=I(p);v=a(w,"H1",{class:!0,"data-svelte-h":!0}),j(v)!=="svelte-1yw68un"&&(v.textContent=N),F=n(w),m=a(w,"P",{class:!0,"data-svelte-h":!0}),j(m)!=="svelte-16uk9f9"&&(m.innerHTML=O),G=n(w),u=a(w,"DIV",{class:!0});var J=I(u);x=a(J,"A",{href:!0,target:!0,rel:!0,class:!0});var Q=I(x);U=l2(Q,"Get Started"),Q.forEach(l),J.forEach(l),w.forEach(l),K=n(e),h=a(e,"DIV",{class:!0,"data-svelte-h":!0}),j(h)!=="svelte-ivlx7w"&&(h.innerHTML=W),e.forEach(l),b=n(t),g=a(t,"BR",{}),C=n(t),_=a(t,"BR",{}),H=n(t),M=a(t,"BR",{}),z=n(t),f=a(t,"DIV",{class:!0,"data-svelte-h":!0}),j(f)!=="svelte-14b66a7"&&(f.innerHTML=Y),B=n(t),V=a(t,"BR",{}),A=n(t),y=a(t,"BR",{}),L=n(t),k=a(t,"BR",{}),R=n(t),T=a(t,"BR",{}),P=n(t),S=a(t,"BR",{}),D=n(t),E=a(t,"BR",{}),this.h()},h(){o(v,"class","text-5xl drop-shadow-lg mt-16 px-4 font-bold text-[#333]"),o(m,"class","text-2xl text-[#444] px-4 mt-5"),o(x,"href",c2),o(x,"target","_blank"),o(x,"rel","noopener noreferrer"),o(x,"class","bg-[#313131] fill-[#f3f3ec] text-[#f3f3ec] inline-flex p-2 px-3 rounded-xl text-2xl items-center shadow-xl bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-[#1489EC] to-[#0569d3]"),o(u,"class","pl-4 mt-12"),o(p,"class","mt-10 max-w-xl"),o(h,"class","px-4 max-w-2xl"),o(r,"class","flex max-w-6xl mt-5 m-auto justify-center"),o(f,"class","max-w-2xl mt-5 m-auto text-center leading-10")},m(t,e){s(t,r,e),d(r,p),d(p,v),d(p,F),d(p,m),d(p,G),d(p,u),d(u,x),d(x,U),d(r,K),d(r,h),s(t,b,e),s(t,g,e),s(t,C,e),s(t,_,e),s(t,H,e),s(t,M,e),s(t,z,e),s(t,f,e),s(t,B,e),s(t,V,e),s(t,A,e),s(t,y,e),s(t,L,e),s(t,k,e),s(t,R,e),s(t,T,e),s(t,P,e),s(t,S,e),s(t,D,e),s(t,E,e)},p:q,i:q,o:q,d(t){t&&(l(r),l(b),l(g),l(C),l(_),l(H),l(M),l(z),l(f),l(B),l(V),l(A),l(y),l(L),l(k),l(R),l(T),l(P),l(S),l(D),l(E))}}}const c2="https://forms.gle/UPmNKp9FncKYnvcW7";class n2 extends ${constructor(r){super(),t2(this,r,null,s2,Z,{})}}export{n2 as component};
