@@ -29,9 +29,9 @@
 		</div>
 	</div>
 
-	<div class="px-4 max-w-2xl">
+	<div class="px-4 -mr-16">
 		<!-- <img src="/landing/hero-image.webp" class=" mt-10 m-auto" alt="example of a plate" /> -->
-		<img src="/hero-image.webp" alt="PhotoFolder logo" class=" -mt-32 -mr-16 m-auto w-[700px]" />
+		<img src="/hero-image2.webp" alt="PhotoFolder logo" class=" -mt-32 m-auto w-[2000px]" />
 	</div>
 </div>
 
@@ -39,9 +39,12 @@
 <br />
 <br />
 
-<div class=" max-w-2xl mt-5 m-auto text-center leading-10">
+<!-- EXPLENATION -->
+<!-- EXPLENATION -->
+<!-- EXPLENATION -->
+<div class=" max-w-3xl my-16 m-auto text-center leading-10">
 	<p class="text-4xl drop-shadow-lg text-[#333] px-4">
-		All the data stored<br /> in a
+		PhotoFolder stores all in a
 		<span
 			class="font-bold text-[#005cc4] fill-[#458cdd] border-[#458cddca] px-3 pb-1 rounded-full inline-flex items-center border-2"
 		>
@@ -86,7 +89,7 @@
 				/></svg
 			>
 		</span>
-		are <span class="italic font-bold">not</span> in a
+		are not in a
 		<span class=" line-through">separate database</span>. They are stored in the
 
 		<a href="https://wikipedia.org/wiki/Metadata" target="_blank"
@@ -108,7 +111,7 @@
 		</a>
 	</p>
 	<p class="text-4xl mt-12 drop-shadow-lg text-[#333] px-4">
-		Sync with <span class="font-bold italic">any</span>
+		Sync with any
 		<span class="font-bold text-[#005cc4] fill-[#458cdd] rounded-full inline-flex items-center">
 			cloud
 
@@ -128,10 +131,82 @@
 			>
 		</span>. They are just files!
 	</p>
+</div>
+
+<br />
+<br />
+<br />
+<br />
+
+<!-- SEARCH -->
+<!-- SEARCH -->
+<!-- SEARCH -->
+<div class="flex max-w-4xl mt-5 m-auto justify-center items-center">
+	<div class="">
+		<h2 class="text-5xl drop-shadow-lg px-4 font-bold text-[#333]">Advance Search</h2>
+		<p class="text-2xl text-[#444] px-4 mt-5">
+			PhotoFolder <span class="font-bold">detects faces and objects</span> in images, and writes this
+			information in the metadata. This enables complex search capabilities while ensuring 100% privacy.
+		</p>
+	</div>
+
+	<div class="px-4">
+		<!-- <img src="/landing/hero-image.webp" class=" mt-10 m-auto" alt="example of a plate" /> -->
+		<img src="/search-hero.webp" alt="PhotoFolder logo" class="  m-auto w-[1200px]" />
+	</div>
+</div>
+
+<br />
+<br />
+<br />
+<!-- MAP -->
+<!-- MAP -->
+<!-- MAP -->
+<div class="flex max-w-4xl mt-5 m-auto justify-center items-center">
+	<div class="px-4">
+		<!-- <img src="/landing/hero-image.webp" class=" mt-10 m-auto" alt="example of a plate" /> -->
+		<img src="/map-hero.webp" alt="PhotoFolder logo" class="  m-auto w-[900px]" />
+	</div>
+	<div class=" ">
+		<h2 class="text-5xl drop-shadow-lg px-4 font-bold text-[#333]">Map and timeline</h2>
+		<p class="text-2xl text-[#444] px-4 mt-5">
+			Use the map to find pictures geographically, or search by date.
+		</p>
+	</div>
+</div>
+
+<br />
+<br />
+<br />
+<!-- OPTIMIZATION -->
+<!-- OPTIMIZATION -->
+<!-- OPTIMIZATION -->
+<div class="flex max-w-4xl mt-5 m-auto justify-center items-center">
+	<div class="">
+		<h2 class="text-5xl drop-shadow-lg px-4 font-bold text-[#333]">Optimise images</h2>
+		<p class="text-2xl text-[#444] px-4 mt-5">
+			Modern phones take good, but very <br /> heavy pictures (.HEIC 🙄). <br />
+			Lossless optimizations can save more than 80% of disk space without losing quality.
+		</p>
+	</div>
+	<div class="px-4 max-w-2xl">
+		<!-- <img src="/landing/hero-image.webp" class=" mt-10 m-auto" alt="example of a plate" /> -->
+		<img src="/optimise-hero2.webp" alt="PhotoFolder logo" class="  m-auto w-[500px]" />
+	</div>
+</div>
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+<div class=" max-w-3xl -mt-5 m-auto text-center leading-10">
 	<p class="text-4xl mt-12 drop-shadow-lg text-[#333] px-4">
 		Of course we are <span class="font-bold">open source</span>,
 		<a class="underline" href="https://github.com/PhotoFolder/app" target="_blank"
-			>you can star us on Github
+			>star us on Github
 		</a>⭐️
 	</p>
 </div>
