@@ -251,8 +251,5 @@
 </div>
 
 <br />
-<br />
-<br />
-<br />
-<br />
-<br />
+
+<img src="/bottom-images.webp" alt="images stack" />
