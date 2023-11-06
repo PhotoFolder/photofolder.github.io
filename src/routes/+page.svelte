@@ -2,36 +2,51 @@
 	// import { base } from '$app/paths';
 
 	const CTA_URL = 'https://forms.gle/UPmNKp9FncKYnvcW7';
+	const YOUTUBE_URL = 'https://youtu.be/5VEm7qhPo2M';
 </script>
 
 <!-- HERO DESKTOP -->
 <!-- HERO DESKTOP -->
 <!-- HERO DESKTOP -->
-<div class="flex max-w-6xl mt-5 m-auto justify-center">
-	<div class="mt-10 max-w-xl">
-		<h1 class="text-5xl drop-shadow-lg mt-16 px-4 font-bold text-[#333]">
-			Prevent lock-in by simply using files
+<div class="flex flex-col-reverse md:flex-row max-w-6xl mt-5 m-auto justify-center">
+	<div class="md:mt-10 max-w-xl">
+		<h1 class="text-5xl drop-shadow-lg mt-6 md:mt-16 px-4 font-bold text-[#333]">
+			All your photos in one folder
 		</h1>
 		<p class="text-2xl text-[#444] px-4 mt-5">
 			PhotoFolder takes advantage of <span class="font-bold">open formats</span> to give the features
 			of Google/Apple Photos without the lock-in.
 		</p>
 
-		<div class="pl-4 mt-12">
+		<div class="pl-4 mt-8 md:mt-12">
 			<a
 				href={CTA_URL}
 				target="_blank"
 				rel="noopener noreferrer"
-				class="bg-[#313131] fill-[#f3f3ec] text-[#f3f3ec] inline-flex p-2 px-3 rounded-xl text-2xl items-center shadow-xl bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-[#1489EC] to-[#0569d3]"
+				class="bg-[#313131] text-[#f3f3ec] p-2 px-3 rounded-xl text-2xl items-center shadow-xl bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-[#1489EC] to-[#0569d3]"
 			>
 				Get Started
+			</a>
+			<br />
+			<br />
+			<a
+				href={YOUTUBE_URL}
+				target="_blank"
+				rel="noopener noreferrer"
+				class="bg-white border-2 border-[#1489EC] border-dashed p-2 px-3 rounded-xl text-xl items-center text-[#1489EC]"
+			>
+				See Video
 			</a>
 		</div>
 	</div>
 
-	<div class="px-4 -mr-16">
+	<div class="px-4 -md:-mr-16">
 		<!-- <img src="/landing/hero-image.webp" class=" mt-10 m-auto" alt="example of a plate" /> -->
-		<img src="/hero-image2.webp" alt="PhotoFolder logo" class=" -mt-32 m-auto w-[2000px]" />
+		<img
+			src="/hero-image2.webp"
+			alt="PhotoFolder logo"
+			class="-mt-[6rem] md:-mt-32 -ml-3 m-auto w-[2000px]"
+		/>
 	</div>
 </div>
 
@@ -43,7 +58,7 @@
 <!-- EXPLENATION -->
 <!-- EXPLENATION -->
 <div class=" max-w-3xl my-16 m-auto text-center leading-10">
-	<p class="text-4xl drop-shadow-lg text-[#333] px-4">
+	<p class="text-3xl md:text-4xl drop-shadow-lg text-[#333] px-4">
 		PhotoFolder stores all in a
 		<span
 			class="font-bold text-[#005cc4] fill-[#458cdd] border-[#458cddca] px-3 pb-1 rounded-full inline-flex items-center border-2"
@@ -61,7 +76,7 @@
 			</svg>
 		</span>
 	</p>
-	<p class="text-4xl mt-12 drop-shadow-lg text-[#333] px-4">
+	<p class="text-3xl md:text-4xl mt-12 drop-shadow-lg text-[#333] px-4">
 		<span class="font-bold text-[#ff5900] fill-[#ff5900AA] rounded-full inline-flex items-center">
 			Location
 			<svg class="inline ml-2" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"
@@ -110,7 +125,7 @@
 			</span>
 		</a>
 	</p>
-	<p class="text-4xl mt-12 drop-shadow-lg text-[#333] px-4">
+	<p class="text-3xl md:text-4xl mt-12 drop-shadow-lg text-[#333] px-4">
 		Sync with any
 		<span class="font-bold text-[#005cc4] fill-[#458cdd] rounded-full inline-flex items-center">
 			cloud
@@ -141,7 +156,7 @@
 <!-- SEARCH -->
 <!-- SEARCH -->
 <!-- SEARCH -->
-<div class="flex max-w-4xl mt-5 m-auto justify-center items-center">
+<div class="flex flex-col md:flex-row max-w-4xl mt-5 m-auto justify-center items-center">
 	<div class="">
 		<h2 class="text-5xl drop-shadow-lg px-4 font-bold text-[#333]">Advance Search</h2>
 		<p class="text-2xl text-[#444] px-4 mt-5">
@@ -162,12 +177,12 @@
 <!-- MAP -->
 <!-- MAP -->
 <!-- MAP -->
-<div class="flex max-w-4xl mt-5 m-auto justify-center items-center">
+<div class="flex flex-col-reverse md:flex-row max-w-4xl mt-5 m-auto justify-center items-center">
 	<div class="px-4">
 		<!-- <img src="/landing/hero-image.webp" class=" mt-10 m-auto" alt="example of a plate" /> -->
 		<img src="/map-hero.webp" alt="PhotoFolder logo" class="  m-auto w-[900px]" />
 	</div>
-	<div class=" ">
+	<div class="pb-5">
 		<h2 class="text-5xl drop-shadow-lg px-4 font-bold text-[#333]">Map and timeline</h2>
 		<p class="text-2xl text-[#444] px-4 mt-5">
 			Use the map to find pictures geographically, or search by date.
@@ -181,7 +196,7 @@
 <!-- OPTIMIZATION -->
 <!-- OPTIMIZATION -->
 <!-- OPTIMIZATION -->
-<div class="flex max-w-4xl mt-5 m-auto justify-center items-center">
+<div class="flex flex-col md:flex-row max-w-4xl mt-5 m-auto justify-center items-center">
 	<div class="">
 		<h2 class="text-5xl drop-shadow-lg px-4 font-bold text-[#333]">Optimise images</h2>
 		<p class="text-2xl text-[#444] px-4 mt-5">
@@ -199,6 +214,30 @@
 <br />
 <br />
 <br />
+<br />
+<br />
+
+<div class="m-auto text-center">
+	<a
+		href={CTA_URL}
+		target="_blank"
+		rel="noopener noreferrer"
+		class="bg-[#313131] text-[#f3f3ec] p-2 px-3 rounded-xl text-3xl items-center shadow-xl bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-[#1489EC] to-[#0569d3]"
+	>
+		Get Started
+	</a>
+	<br />
+	<br />
+	<a
+		href={YOUTUBE_URL}
+		target="_blank"
+		rel="noopener noreferrer"
+		class="bg-white border-2 border-[#1489EC] border-dashed p-2 px-3 rounded-xl text-xl items-center text-[#1489EC]"
+	>
+		See Video
+	</a>
+</div>
+
 <br />
 <br />
 
