@@ -153,21 +153,32 @@
 <br />
 <br />
 
+<!-- FILE -->
+<!-- FILE -->
+<!-- FILE -->
+<div class="flex flex-col-reverse md:flex-row max-w-4xl mt-5 m-auto justify-center items-center">
+	<div class="px-4">
+		<!-- <img src="/landing/hero-image.webp" class=" mt-10 m-auto" alt="example of a plate" /> -->
+		<img src="/file-screenshot.png" alt="PhotoFolder logo" class="  m-auto w-[900px]" />
+	</div>
+	<div class="pb-5">
+		<h2 class="text-5xl drop-shadow-lg px-4 font-bold text-[#333]">Just files</h2>
+		<p class="text-2xl text-[#444] px-4 mt-5">Browse your files</p>
+	</div>
+</div>
+
 <!-- SEARCH -->
 <!-- SEARCH -->
 <!-- SEARCH -->
 <div class="flex flex-col md:flex-row max-w-4xl mt-5 m-auto justify-center items-center">
 	<div class="">
-		<h2 class="text-5xl drop-shadow-lg px-4 font-bold text-[#333]">Advance Search</h2>
-		<p class="text-2xl text-[#444] px-4 mt-5">
-			PhotoFolder <span class="font-bold">detects faces and objects</span> in images, and writes this
-			information in the metadata. This enables complex search capabilities while ensuring 100% privacy.
-		</p>
+		<h2 class="text-5xl drop-shadow-lg px-4 font-bold text-[#333]">Calendar view</h2>
+		<p class="text-2xl text-[#444] px-4 mt-5">Same as on your phone</p>
 	</div>
 
 	<div class="px-4">
 		<!-- <img src="/landing/hero-image.webp" class=" mt-10 m-auto" alt="example of a plate" /> -->
-		<img src="/search-hero.webp" alt="PhotoFolder logo" class="  m-auto w-[1200px]" />
+		<img src="/calendar-screenshot.png" alt="PhotoFolder logo" class="  m-auto w-[1200px]" />
 	</div>
 </div>
 
@@ -180,13 +191,11 @@
 <div class="flex flex-col-reverse md:flex-row max-w-4xl mt-5 m-auto justify-center items-center">
 	<div class="px-4">
 		<!-- <img src="/landing/hero-image.webp" class=" mt-10 m-auto" alt="example of a plate" /> -->
-		<img src="/map-hero.webp" alt="PhotoFolder logo" class="  m-auto w-[900px]" />
+		<img src="/map-screenshot.png" alt="PhotoFolder logo" class="  m-auto w-[900px]" />
 	</div>
 	<div class="pb-5">
-		<h2 class="text-5xl drop-shadow-lg px-4 font-bold text-[#333]">Map and timeline</h2>
-		<p class="text-2xl text-[#444] px-4 mt-5">
-			Use the map to find pictures geographically, or search by date.
-		</p>
+		<h2 class="text-5xl drop-shadow-lg px-4 font-bold text-[#333]">Map view</h2>
+		<p class="text-2xl text-[#444] px-4 mt-5">Search geographically</p>
 	</div>
 </div>
 
@@ -198,15 +207,12 @@
 <!-- OPTIMIZATION -->
 <div class="flex flex-col md:flex-row max-w-4xl mt-5 m-auto justify-center items-center">
 	<div class="">
-		<h2 class="text-5xl drop-shadow-lg px-4 font-bold text-[#333]">Optimise images</h2>
-		<p class="text-2xl text-[#444] px-4 mt-5">
-			Modern phones take good, but very <br /> heavy pictures (.HEIC 🙄). <br />
-			Lossless optimizations can save more than 80% of disk space without losing quality.
-		</p>
+		<h2 class="text-5xl drop-shadow-lg px-4 font-bold text-[#333]">Face detection</h2>
+		<p class="text-2xl text-[#444] px-4 mt-5">Auto-detects faces</p>
 	</div>
 	<div class="px-4 max-w-2xl">
 		<!-- <img src="/landing/hero-image.webp" class=" mt-10 m-auto" alt="example of a plate" /> -->
-		<img src="/optimise-hero2.webp" alt="PhotoFolder logo" class="  m-auto w-[500px]" />
+		<img src="/faces-screenshot.png" alt="PhotoFolder logo" class="  m-auto w-[500px]" />
 	</div>
 </div>
 
