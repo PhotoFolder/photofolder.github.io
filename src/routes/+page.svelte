@@ -163,7 +163,7 @@
 	</div>
 	<div class="pb-5">
 		<h2 class="text-5xl drop-shadow-lg px-4 font-bold text-[#333]">Just files</h2>
-		<p class="text-2xl text-[#444] px-4 mt-5">Browse your files</p>
+		<p class="text-2xl text-[#444] px-4 mt-5">Browse your files the way you are used to</p>
 	</div>
 </div>
 
@@ -208,7 +208,7 @@
 <div class="flex flex-col md:flex-row max-w-4xl mt-5 m-auto justify-center items-center">
 	<div class="">
 		<h2 class="text-5xl drop-shadow-lg px-4 font-bold text-[#333]">Face detection</h2>
-		<p class="text-2xl text-[#444] px-4 mt-5">Auto-detects faces</p>
+		<p class="text-2xl text-[#444] px-4 mt-5">Auto-detects faces, or manually add them</p>
 	</div>
 	<div class="px-4 max-w-2xl">
 		<!-- <img src="/landing/hero-image.webp" class=" mt-10 m-auto" alt="example of a plate" /> -->
