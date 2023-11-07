@@ -258,4 +258,4 @@
 
 <br />
 
-<img src="/bottom-images.webp" alt="images stack" />
+<img src="/bottom-images.webp" alt="images stack" class="w-full" />
