@@ -166,10 +166,10 @@
 <!-- FILE -->
 <!-- FILE -->
 <!-- FILE -->
-<div class="flex flex-col-reverse md:flex-row max-w-4xl mt-5 m-auto justify-center items-center">
+<div class="flex flex-col-reverse max-w-4xl mt-5 m-auto justify-center items-center text-center">
 	<div class="px-4">
 		<!-- <img src="/landing/hero-image.webp" class=" mt-10 m-auto" alt="example of a plate" /> -->
-		<img src="/file-screenshot.png" alt="PhotoFolder logo" class="  m-auto w-[900px]" />
+		<img src="/files.webp" alt="PhotoFolder logo" class="  m-auto w-[900px]" />
 	</div>
 	<div class="pb-5">
 		<h2 class="text-5xl drop-shadow-lg px-4 font-bold text-[#333]">Just files</h2>
@@ -180,7 +180,7 @@
 <!-- SEARCH -->
 <!-- SEARCH -->
 <!-- SEARCH -->
-<div class="flex flex-col md:flex-row max-w-4xl mt-5 m-auto justify-center items-center">
+<div class="flex flex-col max-w-4xl mt-5 m-auto justify-center items-center text-center">
 	<div class="">
 		<h2 class="text-5xl drop-shadow-lg px-4 font-bold text-[#333]">Calendar view</h2>
 		<p class="text-2xl text-[#444] px-4 mt-5">Same as on your phone</p>
@@ -188,7 +188,7 @@
 
 	<div class="px-4">
 		<!-- <img src="/landing/hero-image.webp" class=" mt-10 m-auto" alt="example of a plate" /> -->
-		<img src="/calendar-screenshot.png" alt="PhotoFolder logo" class="  m-auto w-[1200px]" />
+		<img src="/calendar.webp" alt="PhotoFolder logo" class="  m-auto w-[1200px]" />
 	</div>
 </div>
 
@@ -198,10 +198,10 @@
 <!-- MAP -->
 <!-- MAP -->
 <!-- MAP -->
-<div class="flex flex-col-reverse md:flex-row max-w-4xl mt-5 m-auto justify-center items-center">
+<div class="flex flex-col-reverse max-w-4xl mt-5 m-auto justify-center items-center text-center">
 	<div class="px-4">
 		<!-- <img src="/landing/hero-image.webp" class=" mt-10 m-auto" alt="example of a plate" /> -->
-		<img src="/map-screenshot.png" alt="PhotoFolder logo" class="  m-auto w-[900px]" />
+		<img src="/map.webp" alt="PhotoFolder logo" class="  m-auto w-[900px]" />
 	</div>
 	<div class="pb-5">
 		<h2 class="text-5xl drop-shadow-lg px-4 font-bold text-[#333]">Map view</h2>
@@ -215,14 +215,14 @@
 <!-- OPTIMIZATION -->
 <!-- OPTIMIZATION -->
 <!-- OPTIMIZATION -->
-<div class="flex flex-col md:flex-row max-w-4xl mt-5 m-auto justify-center items-center">
+<div class="flex flex-col max-w-4xl mt-5 m-auto justify-center items-center text-center">
 	<div class="">
 		<h2 class="text-5xl drop-shadow-lg px-4 font-bold text-[#333]">Face detection</h2>
 		<p class="text-2xl text-[#444] px-4 mt-5">Auto-detects faces, or manually add them</p>
 	</div>
-	<div class="px-4 max-w-2xl">
+	<div class="pb-5">
 		<!-- <img src="/landing/hero-image.webp" class=" mt-10 m-auto" alt="example of a plate" /> -->
-		<img src="/faces-screenshot.png" alt="PhotoFolder logo" class="  m-auto w-[500px]" />
+		<img src="/faces.webp" alt="PhotoFolder logo" class="  m-auto w-[900px]" />
 	</div>
 </div>
 
@@ -231,6 +231,21 @@
 <br />
 <br />
 <br />
+
+<h3 class="text-4xl mt-12 drop-shadow-lg text-[#333] px-4 font-bold mb-4 text-center">
+	“Softwares come and go, <br /> but my jpegs stay forever”
+</h3>
+
+<p class="text-center text-xl mb-4 text-[#444]">
+	Reactions to our <a
+		class="underline text-[#1382E6]"
+		href="https://www.reddit.com/r/ObsidianMD/comments/17po4vc/obsidian_for_pictures/"
+		target="_blank"
+	>
+		reddit post
+	</a>.
+</p>
+<img src="/reddit-comments.webp" alt="images stack" class="m-auto max-w-[900px]" />
 <br />
 
 <div class="m-auto text-center">
@@ -246,13 +261,6 @@
 	<br />
 	<br />
 </div>
-
-<br />
-<br />
-
-<br />
-
-<img src="/reddit-comments.webp" alt="images stack" class="m-auto max-w-[900px]" />
 
 <div class="flex flex-col items-center text-center mt-10">
 	<h3 class="text-4xl mt-12 drop-shadow-lg text-[#333] px-4 font-bold mb-4">
