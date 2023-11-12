@@ -25,25 +25,17 @@
 				rel="noopener noreferrer"
 				class="bg-[#313131] text-[#f3f3ec] p-2 px-3 rounded-xl text-2xl items-center shadow-xl bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-[#1489EC] to-[#0569d3]"
 			>
-				Get Started
+				Get early access
 			</a>
 			<br />
 			<br />
-			<a
-				href={YOUTUBE_URL}
-				target="_blank"
-				rel="noopener noreferrer"
-				class="bg-white border-2 border-[#1489EC] border-dashed p-2 px-3 rounded-xl text-xl items-center text-[#1489EC]"
-			>
-				See Video
-			</a>
 		</div>
 	</div>
 
 	<div class="px-4 -md:-mr-16">
 		<!-- <img src="/landing/hero-image.webp" class=" mt-10 m-auto" alt="example of a plate" /> -->
 		<img
-			src="/hero-image2.webp"
+			src="/hero-image-4.webp"
 			alt="PhotoFolder logo"
 			class="-mt-[6rem] md:-mt-32 -ml-3 m-auto w-[2000px]"
 		/>
@@ -230,7 +222,7 @@
 		rel="noopener noreferrer"
 		class="bg-[#313131] text-[#f3f3ec] p-2 px-3 rounded-xl text-3xl items-center shadow-xl bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-[#1489EC] to-[#0569d3]"
 	>
-		Get Started
+		Get early access
 	</a>
 	<br />
 	<br />
