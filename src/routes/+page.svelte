@@ -245,28 +245,28 @@
 	</a>
 	<br />
 	<br />
-	<a
-		href={YOUTUBE_URL}
-		target="_blank"
-		rel="noopener noreferrer"
-		class="bg-white border-2 border-[#1489EC] border-dashed p-2 px-3 rounded-xl text-xl items-center text-[#1489EC]"
-	>
-		See Video
-	</a>
 </div>
 
 <br />
 <br />
 
-<div class=" max-w-3xl -mt-5 m-auto text-center leading-10">
-	<p class="text-4xl mt-12 drop-shadow-lg text-[#333] px-4">
-		Of course we are <span class="font-bold">open source</span>,
-		<a class="underline" href="https://github.com/PhotoFolder/app" target="_blank"
-			>star us on Github
-		</a>⭐️
+<br />
+
+<div class="flex flex-col items-center text-center">
+	<h3 class="text-4xl mt-12 drop-shadow-lg text-[#333] px-4 font-bold mb-4">
+		How you can help us ?
+	</h3>
+	<p class="text-2xl drop-shadow-lg text-[#333] px-4">
+		As an open source project, a star on <a
+			class="underline text-[#1382E6]"
+			href="https://github.com/PhotoFolder/app"
+			target="_blank"
+		>
+			github
+		</a>
+		help us to <br /> accelerate our developement
 	</p>
+	<img src="/star-us.webp" alt="images stack" class="w-[325px] ml-6 -mt-6" />
 </div>
 
-<br />
-
-<img src="/bottom-images.webp" alt="images stack" class="w-full" />
+<img src="/bottom-images.webp" alt="images stack" class="w-full -mt-20" />
