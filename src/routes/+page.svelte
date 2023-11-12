@@ -271,4 +271,4 @@
 	<img src="/star-us.webp" alt="images stack" class="w-[325px] ml-6 -mt-6" />
 </div>
 
-<img src="/bottom-images.webp" alt="images stack" class="w-full -mt-20" />
+<img src="/bottom-images.webp" alt="images stack" class="w-full -mt-24" />
