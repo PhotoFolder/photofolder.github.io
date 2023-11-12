@@ -5,6 +5,10 @@
 	const YOUTUBE_URL = 'https://youtu.be/5VEm7qhPo2M';
 </script>
 
+<svelte:head>
+	<title>PhotoFolder 🖼️</title>
+</svelte:head>
+
 <!-- HERO DESKTOP -->
 <!-- HERO DESKTOP -->
 <!-- HERO DESKTOP -->
@@ -33,12 +37,12 @@
 		</div>
 	</div>
 
-	<div class="px-4 -md:-mr-16">
+	<div class="px-4 -md:-mr-14">
 		<!-- <img src="/landing/hero-image.webp" class=" mt-10 m-auto" alt="example of a plate" /> -->
 		<img
 			src="/hero-image-5.webp"
 			alt="PhotoFolder logo"
-			class="-mt-[6rem] md:-mt-32 -ml-3 m-auto w-[2000px]"
+			class="-mt-[6rem] md:-mt-32 -ml-3 m-auto w-[2100px]"
 		/>
 	</div>
 </div>
