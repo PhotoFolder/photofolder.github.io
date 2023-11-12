@@ -50,12 +50,16 @@
 <div class="flex justify-center">
 	<a
 		href={YOUTUBE_URL}
-		class="inline-flex justify-center flex-col text-center"
+		class="inline-flex justify-center flex-col text-center px-5"
 		target="_blank"
 		rel="noopener noreferrer"
 	>
 		<!-- <img src="/landing/hero-image.webp" class=" mt-10 m-auto" alt="example of a plate" /> -->
-		<img src="/youtube-thumbnail.webp" alt="PhotoFolder logo" class=" w-[600px] rounded shadow" />
+		<img
+			src="/youtube-thumbnail.webp"
+			alt="PhotoFolder logo"
+			class="w-full max-w-[600px] rounded-lg shadow-lg"
+		/>
 		<p class="text-xl px-4 mt-5 underline text-[#005DC4]">
 			Everything explained in <br />300 seconds
 		</p>
@@ -258,7 +262,7 @@
 <br />
 
 <h3 class="text-4xl mt-12 drop-shadow-lg text-[#333] px-4 font-bold mb-4 text-center">
-	“Softwares come and go, <br /> but my jpegs stay forever”
+	“Softwares come and go, <br class="hidden md:block" /> but my jpegs stay forever”
 </h3>
 
 <p class="text-center text-xl mb-4 text-[#444]">
@@ -270,7 +274,7 @@
 		reddit post
 	</a>.
 </p>
-<img src="/reddit-comments.webp" alt="images stack" class="m-auto w-full max-w-[900px]" />
+<img src="/reddit-comments.webp" alt="images stack" class="m-auto w-full max-w-[950px] px-5" />
 <br />
 
 <div class="m-auto text-center">
@@ -297,7 +301,7 @@
 		>
 			github
 		</a>
-		help us to <br /> accelerate our developement
+		help us <br /> with visibility and motivation
 	</p>
 	<img src="/star-us.webp" alt="images stack" class="w-[325px] ml-6 -mt-6" />
 </div>
