@@ -23,9 +23,10 @@
 				href={CTA_URL}
 				target="_blank"
 				rel="noopener noreferrer"
-				class="bg-[#313131] text-[#f3f3ec] p-2 px-3 rounded-xl text-2xl items-center shadow-xl bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-[#1489EC] to-[#0569d3]"
+				class="inline-flex bg-[#313131] text-[#f3f3ec] p-2 px-3 hover:px-4 transition-all rounded-xl text-2xl items-center shadow-xl bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-[#1489EC] to-[#0569d3]"
 			>
 				Get early access
+				<img src="/arrow.svg" alt="PhotoFolder logo" class=" ml-2 rounded" />
 			</a>
 			<br />
 			<br />
