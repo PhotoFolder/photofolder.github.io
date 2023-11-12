@@ -252,6 +252,8 @@
 
 <br />
 
+<img src="/reddit-comments.webp" alt="images stack" class="m-auto max-w-[900px] mb-16" />
+
 <div class="flex flex-col items-center text-center">
 	<h3 class="text-4xl mt-12 drop-shadow-lg text-[#333] px-4 font-bold mb-4">
 		How you can help us ?
