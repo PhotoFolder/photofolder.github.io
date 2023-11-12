@@ -161,73 +161,98 @@
 <br />
 <br />
 <br />
-<br />
 
 <!-- FILE -->
 <!-- FILE -->
 <!-- FILE -->
-<div class="flex flex-col-reverse max-w-4xl mt-5 m-auto justify-center items-center text-center">
+<div class="flex flex-col max-w-4xl mt-5 m-auto justify-center items-center text-center mb-16">
+	<h2
+		class="text-5xl drop-shadow-lg px-4 font-bold text-[#005cc4] fill-[#458cdd] flex justify-center"
+	>
+		Just files <svg
+			class="inline ml-2"
+			xmlns="http://www.w3.org/2000/svg"
+			height="1em"
+			viewBox="0 0 512 512"
+		>
+			<!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path
+				d="M64 480H448c35.3 0 64-28.7 64-64V160c0-35.3-28.7-64-64-64H288c-10.1 0-19.6-4.7-25.6-12.8L243.2 57.6C231.1 41.5 212.1 32 192 32H64C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64z"
+			/>
+		</svg>
+	</h2>
+	<p class="text-xl md:text-2xl text-[#444] mt-1 mb-4">Browse your files the way you are used to</p>
 	<div class="px-4">
-		<!-- <img src="/landing/hero-image.webp" class=" mt-10 m-auto" alt="example of a plate" /> -->
-		<img src="/files.webp" alt="PhotoFolder logo" class="  m-auto w-[900px]" />
-	</div>
-	<div class="pb-5">
-		<h2 class="text-5xl drop-shadow-lg px-4 font-bold text-[#333]">Just files</h2>
-		<p class="text-2xl text-[#444] px-4 mt-5">Browse your files the way you are used to</p>
+		<img src="/files.webp" alt="PhotoFolder logo" class="  m-auto w-full max-w-[700px]" />
 	</div>
 </div>
 
-<!-- SEARCH -->
-<!-- SEARCH -->
-<!-- SEARCH -->
-<div class="flex flex-col max-w-4xl mt-5 m-auto justify-center items-center text-center">
-	<div class="">
-		<h2 class="text-5xl drop-shadow-lg px-4 font-bold text-[#333]">Calendar view</h2>
-		<p class="text-2xl text-[#444] px-4 mt-5">Same as on your phone</p>
-	</div>
+<!-- CALENDAR -->
+<!-- CALENDAR -->
+<!-- CALENDAR -->
+<div class="flex flex-col max-w-4xl mt-5 m-auto justify-center items-center text-center mb-16">
+	<h2
+		class="text-5xl drop-shadow-lg px-4 font-bold text-red-800 fill-[#DA302F] flex justify-center"
+	>
+		Calendar
 
+		<svg
+			class="inline ml-2 opacity-80"
+			xmlns="http://www.w3.org/2000/svg"
+			height="1em"
+			viewBox="0 0 448 512"
+			><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path
+				d="M152 24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H64C28.7 64 0 92.7 0 128v16 48V448c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V192 144 128c0-35.3-28.7-64-64-64H344V24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H152V24zM48 192H400V448c0 8.8-7.2 16-16 16H64c-8.8 0-16-7.2-16-16V192z"
+			/></svg
+		>
+	</h2>
+	<p class="text-xl md:text-2xl text-[#444] mt-1 mb-4">Same as on your phone</p>
 	<div class="px-4">
-		<!-- <img src="/landing/hero-image.webp" class=" mt-10 m-auto" alt="example of a plate" /> -->
-		<img src="/calendar.webp" alt="PhotoFolder logo" class="  m-auto w-[1200px]" />
+		<img src="/calendar.webp" alt="PhotoFolder logo" class="  m-auto w-full max-w-[700px]" />
 	</div>
 </div>
 
-<br />
-<br />
-<br />
 <!-- MAP -->
 <!-- MAP -->
 <!-- MAP -->
-<div class="flex flex-col-reverse max-w-4xl mt-5 m-auto justify-center items-center text-center">
+<div class="flex flex-col max-w-4xl mt-5 m-auto justify-center items-center text-center mb-16">
+	<h2
+		class="text-5xl drop-shadow-lg px-4 font-bold text-[#15803d] fill-[#15803dAA] flex justify-center"
+	>
+		Map
+
+		<svg class="inline ml-2" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"
+			><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path
+				d="M57.7 193l9.4 16.4c8.3 14.5 21.9 25.2 38 29.8L163 255.7c17.2 4.9 29 20.6 29 38.5v39.9c0 11 6.2 21 16 25.9s16 14.9 16 25.9v39c0 15.6 14.9 26.9 29.9 22.6c16.1-4.6 28.6-17.5 32.7-33.8l2.8-11.2c4.2-16.9 15.2-31.4 30.3-40l8.1-4.6c15-8.5 24.2-24.5 24.2-41.7v-8.3c0-12.7-5.1-24.9-14.1-33.9l-3.9-3.9c-9-9-21.2-14.1-33.9-14.1H257c-11.1 0-22.1-2.9-31.8-8.4l-34.5-19.7c-4.3-2.5-7.6-6.5-9.2-11.2c-3.2-9.6 1.1-20 10.2-24.5l5.9-3c6.6-3.3 14.3-3.9 21.3-1.5l23.2 7.7c8.2 2.7 17.2-.4 21.9-7.5c4.7-7 4.2-16.3-1.2-22.8l-13.6-16.3c-10-12-9.9-29.5 .3-41.3l15.7-18.3c8.8-10.3 10.2-25 3.5-36.7l-2.4-4.2c-3.5-.2-6.9-.3-10.4-.3C163.1 48 84.4 108.9 57.7 193zM464 256c0-36.8-9.6-71.4-26.4-101.5L412 164.8c-15.7 6.3-23.8 23.8-18.5 39.8l16.9 50.7c3.5 10.4 12 18.3 22.6 20.9l29.1 7.3c1.2-9 1.8-18.2 1.8-27.5zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256z"
+			/></svg
+		>
+	</h2>
+	<p class="text-xl md:text-2xl text-[#444] mt-1 mb-4">Search geographically</p>
 	<div class="px-4">
-		<!-- <img src="/landing/hero-image.webp" class=" mt-10 m-auto" alt="example of a plate" /> -->
-		<img src="/map.webp" alt="PhotoFolder logo" class="  m-auto w-[900px]" />
-	</div>
-	<div class="pb-5">
-		<h2 class="text-5xl drop-shadow-lg px-4 font-bold text-[#333]">Map view</h2>
-		<p class="text-2xl text-[#444] px-4 mt-5">Search geographically</p>
+		<img src="/map.webp" alt="PhotoFolder logo" class="  m-auto w-full max-w-[700px]" />
 	</div>
 </div>
 
-<br />
-<br />
-<br />
-<!-- OPTIMIZATION -->
-<!-- OPTIMIZATION -->
-<!-- OPTIMIZATION -->
-<div class="flex flex-col max-w-4xl mt-5 m-auto justify-center items-center text-center">
-	<div class="">
-		<h2 class="text-5xl drop-shadow-lg px-4 font-bold text-[#333]">Face detection</h2>
-		<p class="text-2xl text-[#444] px-4 mt-5">Auto-detects faces, or manually add them</p>
-	</div>
-	<div class="pb-5">
-		<!-- <img src="/landing/hero-image.webp" class=" mt-10 m-auto" alt="example of a plate" /> -->
-		<img src="/faces.webp" alt="PhotoFolder logo" class="  m-auto w-[900px]" />
+<!-- FACES -->
+<!-- FACES -->
+<!-- FACES -->
+<div class="flex flex-col max-w-4xl mt-5 m-auto justify-center items-center text-center mb-16">
+	<h2
+		class="text-5xl drop-shadow-lg px-4 font-bold text-[#800080] fill-[#800080AA] flex justify-center"
+	>
+		Faces
+
+		<svg class="inline ml-2" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"
+			><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path
+				d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm177.6 62.1C192.8 334.5 218.8 352 256 352s63.2-17.5 78.4-33.9c9-9.7 24.2-10.4 33.9-1.4s10.4 24.2 1.4 33.9c-22 23.8-60 49.4-113.6 49.4s-91.7-25.5-113.6-49.4c-9-9.7-8.4-24.9 1.4-33.9s24.9-8.4 33.9 1.4zM144.4 208a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm192-32a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"
+			/></svg
+		>
+	</h2>
+	<p class="text-xl md:text-2xl text-[#444] mt-1 mb-4">Auto-detects faces, or manually add them</p>
+	<div class="px-4">
+		<img src="/faces.webp" alt="PhotoFolder logo" class="  m-auto w-full max-w-[700px]" />
 	</div>
 </div>
 
-<br />
-<br />
 <br />
 <br />
 <br />
@@ -245,7 +270,7 @@
 		reddit post
 	</a>.
 </p>
-<img src="/reddit-comments.webp" alt="images stack" class="m-auto max-w-[900px]" />
+<img src="/reddit-comments.webp" alt="images stack" class="m-auto w-full max-w-[900px]" />
 <br />
 
 <div class="m-auto text-center">
@@ -263,9 +288,7 @@
 </div>
 
 <div class="flex flex-col items-center text-center mt-10">
-	<h3 class="text-4xl mt-12 drop-shadow-lg text-[#333] px-4 font-bold mb-4">
-		How you can help us ?
-	</h3>
+	<h3 class="text-4xl mt-12 drop-shadow-lg text-[#333] px-4 font-bold mb-4">Can you help us ?</h3>
 	<p class="text-2xl drop-shadow-lg text-[#333] px-4">
 		As an open source project, a star on <a
 			class="underline text-[#1382E6]"
