@@ -47,10 +47,17 @@
 <br />
 
 <div class="flex justify-center">
-	<a href={YOUTUBE_URL} class="inline-flex justify-center">
+	<a
+		href={YOUTUBE_URL}
+		class="inline-flex justify-center flex-col text-center"
+		target="_blank"
+		rel="noopener noreferrer"
+	>
 		<!-- <img src="/landing/hero-image.webp" class=" mt-10 m-auto" alt="example of a plate" /> -->
 		<img src="/youtube-thumbnail.webp" alt="PhotoFolder logo" class=" w-[600px] rounded shadow" />
-		<p class="text-2xl px-4 mt-5">Everything explained in <br />less than 5 minutes</p>
+		<p class="text-xl px-4 mt-5 underline text-[#005DC4]">
+			Everything explained in <br />300 seconds
+		</p>
 	</a>
 </div>
 <br />
