@@ -29,7 +29,7 @@
 				rel="noopener noreferrer"
 				class="inline-flex bg-[#313131] text-[#f3f3ec] p-2 px-3 hover:px-4 transition-all rounded-xl text-2xl items-center shadow-xl bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-[#1489EC] to-[#0569d3]"
 			>
-				Get early access
+				Join waitlist
 				<img src="/arrow.svg" alt="PhotoFolder logo" class=" ml-2 rounded" />
 			</a>
 			<br />
@@ -280,6 +280,7 @@
 </p>
 <img src="/reddit-comments.webp" alt="images stack" class="m-auto w-full max-w-[950px] px-5" />
 <br />
+<br />
 
 <div class="m-auto text-center">
 	<a
@@ -288,7 +289,7 @@
 		rel="noopener noreferrer"
 		class="inline-flex bg-[#313131] text-[#f3f3ec] p-2 px-3 hover:px-4 transition-all rounded-xl text-2xl items-center shadow-xl bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-[#1489EC] to-[#0569d3]"
 	>
-		Get early access
+		Join waitlist
 		<img src="/arrow.svg" alt="PhotoFolder logo" class=" ml-2 rounded" />
 	</a>
 	<br />
