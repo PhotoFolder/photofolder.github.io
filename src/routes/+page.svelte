@@ -301,14 +301,16 @@
 	<p class="text-2xl drop-shadow-lg text-[#333] px-4">
 		As an open source project, a star on <a
 			class="underline text-[#1382E6]"
-			href="https://github.com/PhotoFolder/app"
+			href="https://github.com/PhotoFolder/PhotoFolder"
 			target="_blank"
 		>
 			github
 		</a>
 		help us <br /> with visibility and motivation
 	</p>
-	<img src="/star-us.webp" alt="images stack" class="w-[325px] ml-6 -mt-6" />
+	<a class="" href="https://github.com/PhotoFolder/PhotoFolder" target="_blank">
+		<img src="/star-us.webp" alt="images stack" class="w-[325px] ml-6 -mt-6" />
+	</a>
 </div>
 
 <img src="/bottom-images.webp" alt="images stack" class="w-full -mt-24" />
