@@ -1,5 +1,5 @@
 <script lang="ts">
-	const RELEASE_VERSION = '1.0.0-rc.3';
+	const RELEASE_VERSION = '1.0.0-rc.5';
 	const RELEASE_LINK_MAC = `releases/PhotoFolder-${RELEASE_VERSION}.dmg`;
 	const RELEASE_LINK_WINDOWS = `#`;
 	const RELEASE_LINK_LINUX = `#`;
@@ -31,13 +31,6 @@
 			>
 		</span>
 	</h1>
-	<p class="max-w-sm text-center m-auto text-[#444] text-lg">
-		Thanks for giving PhotoFolder a try! <br /> If you have anything to say you can gives us
-		feedback
-
-		<a class="underline text-[#0766E0]" href="https://forms.gle/UjkHgSa8a7335icQ7">here</a>.
-	</p>
-	<br />
 	<div class="text-[#444] max-w-sm m-auto text-lg">
 		<h2>Instructions on how to install:</h2>
 		<p class="ml-4">1. Open the dmg file</p>
