@@ -1,6 +1,7 @@
 <script lang="ts">
   import type { PageData } from "./$types";
   import type { SvelteComponentTyped } from "svelte/internal";
+  import { CTA_URL, YOUTUBE_URL } from "$lib/constants";
 
   import PageHead from "$lib/components/PageHead.svelte";
   import ArticleTitle from "$lib/components/ArticleTitle.svelte";
@@ -21,6 +22,22 @@
 
 <div class="article-body">
   <svelte:component this={component} />
+</div>
+
+<br />
+<br />
+<div class="m-auto text-center">
+  <a
+    href={CTA_URL}
+    target="_blank"
+    rel="noopener noreferrer"
+    class="inline-flex bg-[#313131] !text-[#f3f3ec] !no-underline p-2 px-3 hover:px-4 transition-all rounded-xl text-2xl items-center shadow-xl bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-[#1489EC] to-[#0569d3]"
+  >
+    Join waitlist
+    <img src="/arrow.svg" alt="PhotoFolder logo" class=" ml-2 rounded" />
+  </a>
+  <br />
+  <br />
 </div>
 
 <style>
