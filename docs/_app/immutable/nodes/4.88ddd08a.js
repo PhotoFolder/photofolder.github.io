@@ -1,0 +1,1 @@
+import{S as n,i as t,s,o as a}from"../chunks/index.f83cf7b0.js";function r(o){return a(()=>{window.location.replace("https://onefolder.app/download?ref=photofolder-github-io")}),[]}class l extends n{constructor(e){super(),t(this,e,r,null,s,{})}}export{l as component};
